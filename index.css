@@ -1,5 +1,5 @@
  body{
-    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(0, 0, 0) ,black,rgb(39, 208, 238));
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(0, 0, 0) ,black,rgb(238, 148, 39));
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +15,7 @@
     .text{
       margin-bottom: 2px;
       margin-top: 0px;
-      color: rgb(45, 191, 235);
+      color: rgb(235, 178, 45);
       font-size: 30px;
       letter-spacing: 1px;
       font-family: monospace;
@@ -51,7 +51,7 @@
       justify-content: space-evenly;
       flex-wrap: wrap;
       animation: appear 2s;
-      width: 70%;
+      width: 80%;
       align-self: center;
       margin: auto;
     }
@@ -99,7 +99,8 @@
       width:50px;
       padding: 5px;
       border-radius: 9px;
-      animation: moves infinite .8s ease-in-out;
+      animation: moves infinite 2s ease-in-out;
+      transition: 2s;
     }   
     /* .do1Image{
       margin-top: 25px;
@@ -132,7 +133,7 @@
 
 
   .carousel{
-      animation:appear2 linear;
+      /* animation:appear2 linear; */
       animation-timeline: view();
       animation-range: entry 0 cover 15%;
       z-index: 0;
@@ -141,7 +142,7 @@
 
     .carousel {
   overflow: hidden;
-  width: 98%;
+  width: 100%;
   position: relative;
   border: orange solid 2px;
   padding: 10px;
@@ -266,12 +267,14 @@
     @keyframes moves{
       from{
         /* transform: translateX(4px); */
-        transform: translateY(0px);
+        /* transform: translateY(0px); */
+        scale: 1;
         /* opacity: 1; */
       }
       to{
         /* transform: translateX(0px); */
-        transform: translateY(2px);
+        /* transform: translateY(2px); */
+        scale: 1.04;
         /* opacity: 0; */
       }
     }
@@ -331,7 +334,8 @@ body{
 }
 .wrapper{
   position: absolute;
-  top: 20%;
+  top: 10%;
+  left: 7%;
   color: white;
   padding: 2rem;
 }
@@ -379,15 +383,12 @@ body{
   60%, 70%{
     transform: translateY(-400%);
   }
-  75%, 85%{
-    transform: translateY(-500%);
-  }
 }
 
 .wrapper .content ol li span{
-  font-weight: 600;
+  font-weight: bold;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(20deg, cyan,magenta);
+  background: linear-gradient(20deg, cyan,rgb(163, 119, 5));
   -webkit-background-clip: text;
 
   white-space:nowrap ;
