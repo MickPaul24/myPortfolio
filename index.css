@@ -75,7 +75,7 @@
       background-image: url(me.png);
     }
     .do{
-      height: 280px;
+      height: 200px;
       width: 400px;
       /* border: solid white 1px; */
       border-radius: 10px;
@@ -222,13 +222,16 @@
   border-radius: 999px;
   box-shadow: 0px 0px 7px orange;
 }
-.projectOneText{
+.visitButton{
   color: black;
   background-color: orange;
   padding: 5px;
   display: inline;
   border: solid;
   border-radius: 10px;
+}
+.visitButton:hover{
+  cursor: pointer;
 }
 .aboutContainer{
   display: flex;
@@ -313,11 +316,7 @@
     }
 
 
-
-
-
-
-
+/*CSS for the srolling texts*/
 
     *{
   margin: 0;
@@ -393,3 +392,5 @@ body{
 
   white-space:nowrap ;
 }
+
+/*CSS for the srolling texts*/
