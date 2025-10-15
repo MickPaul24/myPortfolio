@@ -13,6 +13,8 @@
       
     }
     .text{
+      position: relative;
+      margin: auto;
       margin-bottom: 2px;
       margin-top: 0px;
       color: rgb(235, 178, 45);
@@ -40,16 +42,16 @@
       font-weight:bold;
     }
     .hero{
-      /* border: orange solid 2px; */
+      border: orange solid 2px;
       border-radius: 10px;
       padding: 20px;
       /* border-left-style: dashed; */
       /* border-top-style: dashed; */
-      justify-content: center;
+      /* justify-content: center; */
       align-items: center;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      /* justify-content: space-evenly; */
       flex-wrap: wrap;
       animation: appear 2s;
       width: 55%;
@@ -63,11 +65,12 @@
       height: 300px;
       width: 300px;
       box-shadow: white 0px 0px 10px inset;
-      justify-content: center;
-      align-items: center;
+      /* justify-content: center; */
+      /* align-items: center; */
       display: flex;
       /* overflow: hidden; */
-      justify-self: right;
+      /* justify-self: right; */
+      margin: auto;
     }
     .me{
       height: 280px;
@@ -76,11 +79,12 @@
       background-image: url(me.png);
     }
     .do{
+      margin: auto;
       height: 200px;
-      width: 800px;
+      width: 100%;
       /* border: solid white 1px; */
       border-radius: 10px;
-      justify-content: center;
+      /* justify-content: center; */
       display: flex;
       flex-direction: row;
       /* flex-direction: row; */
@@ -199,6 +203,7 @@
   margin: auto;
   text-align: center;
   /* display: flex; */
+  color: white;
 }
 .projectShowcaseText{
   color: white;
@@ -212,7 +217,7 @@
   align-items: center;
 }
 .projectOne{
-  border: dashed orange 1px;
+  border: solid orange 1px;
   border-radius: 9px;
   margin: 5px;
   width: 100%;
