@@ -54,7 +54,7 @@
       /* justify-content: space-evenly; */
       flex-wrap: wrap;
       animation: appear 2s;
-      width: 55%;
+      width: 60%;
       align-self: center;
       margin: auto;
     }
@@ -65,8 +65,8 @@
       height: 300px;
       width: 300px;
       box-shadow: white 0px 0px 10px inset;
-      /* justify-content: center; */
-      /* align-items: center; */
+      justify-content: center;
+      align-items: center;
       display: flex;
       /* overflow: hidden; */
       /* justify-self: right; */
@@ -351,7 +351,7 @@ body{
   top: 10%;
   left: 7%;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
 }
 .wrapper p{
   width: 55vw;
@@ -366,7 +366,7 @@ body{
   font-size: 1rem;
 }
 .wrapper .content{
-  font: lighter 3rem "poppins", sans-serif;
+  font: lighter 2.5rem "poppins", sans-serif;
 }
 .wrapper .content ol{
   list-style: none;
@@ -397,6 +397,9 @@ body{
   60%, 70%{
     transform: translateY(-400%);
   }
+  80%, 90%{
+    transform: translateY(-500%);
+  }
 }
 
 .wrapper .content ol li span{
@@ -404,7 +407,6 @@ body{
   -webkit-text-fill-color: transparent;
   background: linear-gradient(20deg, cyan,rgb(163, 119, 5));
   -webkit-background-clip: text;
-
   white-space:nowrap ;
 }
 
