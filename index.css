@@ -39,10 +39,90 @@
       color:white; 
       font-family: Arial, Helvetica, sans-serif; 
       margin-top: 30px; 
-      font-size: 5px; 
+      font-size: 40px; 
       font-weight:bold;
       margin-left: 30px;
     }
+    /*CSS for the srolling texts*/
+
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body{
+  min-height: 100vh;
+  /* background: #0008 url(Wallpaper.jpg) ; */
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper{
+  /* position: absolute; */
+  top: 10%;
+  left: 7%;
+  color: white;
+  padding: 1rem;
+}
+.wrapper p{
+  width: 55vw;
+  margin: 1rem 0;
+}
+.wrapper button{
+  padding: .8rem 1.6rem;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 2rem ;
+  font-size: 1rem;
+}
+.wrapper .content{
+  font: lighter 2.5rem "poppins", sans-serif;
+}
+.wrapper .content ol{
+  list-style: none;
+  --height: 3.8rem;
+  height: var(--height);
+  line-height: var(--height);
+
+  overflow: hidden;
+
+}
+.wrapper .content ol li{
+  animation: slide-up 12s infinite;
+}
+
+@keyframes slide-up{
+  0%, 10%{
+    transform: translateY(0%);
+  }
+  15%, 25%{
+    transform: translateY(-100%);
+  }
+  30%, 40%{
+    transform: translateY(-200%);
+  }
+  45%, 55%{
+    transform: translateY(-300%);
+  }
+  60%, 70%{
+    transform: translateY(-400%);
+  }
+  80%, 90%{
+    transform: translateY(-500%);
+  }
+}
+
+.wrapper .content ol li span{
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(20deg, cyan,rgb(163, 119, 5));
+  -webkit-background-clip: text;
+  white-space:nowrap ;
+}
+
+/*CSS for the srolling texts*/
     .hero{
       /* border: orange solid 2px; */
       border-radius: 10px;
@@ -209,12 +289,12 @@
     }
 .projectShowcase{
   border-radius: 9px;
-  /* border: solid orange 2px; */
+  border: solid orange 2px;
   margin: auto;
   text-align: center;
   /* display: flex; */
   color: white;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .projectShowcaseText{
   color: white;
@@ -223,18 +303,18 @@
   /* width: 100%; */
 }
 .projectContainer{
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   align-items: first baseline;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .projectOne{
   border: solid orange 1px;
   border-radius: 20px;
   margin: 5px;
   width: 100%;
-  display: block;
+  /* display: block; */
   padding: 5px;
   background: linear-gradient(125deg,black,rgb(190, 127, 10),black);
 }
@@ -306,7 +386,7 @@
       margin-bottom: 2px;
       margin-top: 0px;
       color: orange;
-      font-size: 5px;
+      font-size: 50px;
       font-weight: bold;
       letter-spacing: 1px;
       font-family: monospace;
@@ -371,7 +451,7 @@
   background-color: #bc891a;
 }
 .aboutContainer{
-  display: block;
+  display: flex;
   /* flex-wrap: wrap; */
   /* flex-direction: column; */
   margin: auto;
@@ -456,86 +536,7 @@
     }
 
 
-/*CSS for the srolling texts*/
 
-    *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
-}
-body{
-  min-height: 100vh;
-  /* background: #0008 url(Wallpaper.jpg) ; */
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.wrapper{
-  /* position: absolute; */
-  top: 10%;
-  left: 7%;
-  color: white;
-  padding: 1rem;
-}
-.wrapper p{
-  width: 55vw;
-  margin: 1rem 0;
-}
-.wrapper button{
-  padding: .8rem 1.6rem;
-  background-color: crimson;
-  color: white;
-  border: none;
-  border-radius: 2rem ;
-  font-size: 1rem;
-}
-.wrapper .content{
-  font: lighter 2.5rem "poppins", sans-serif;
-}
-.wrapper .content ol{
-  list-style: none;
-  --height: 3.8rem;
-  height: var(--height);
-  line-height: var(--height);
-
-  overflow: hidden;
-
-}
-.wrapper .content ol li{
-  animation: slide-up 12s infinite;
-}
-
-@keyframes slide-up{
-  0%, 10%{
-    transform: translateY(0%);
-  }
-  15%, 25%{
-    transform: translateY(-100%);
-  }
-  30%, 40%{
-    transform: translateY(-200%);
-  }
-  45%, 55%{
-    transform: translateY(-300%);
-  }
-  60%, 70%{
-    transform: translateY(-400%);
-  }
-  80%, 90%{
-    transform: translateY(-500%);
-  }
-}
-
-.wrapper .content ol li span{
-  font-weight: bold;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(20deg, cyan,rgb(163, 119, 5));
-  -webkit-background-clip: text;
-  white-space:nowrap ;
-}
-
-/*CSS for the srolling texts*/
 .have{
   margin: auto;
   text-align: center;
@@ -617,6 +618,24 @@ body{
   margin-top: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media(max-width:767px){
        body{
     background: linear-gradient(45deg,rgb(0, 0, 0),rgb(0, 0, 0) ,black,rgb(238, 148, 39));
@@ -659,9 +678,88 @@ body{
       color:white; 
       font-family: Arial, Helvetica, sans-serif; 
       margin-top: 0px; 
-      font-size: 50px; 
+      font-size: 30px; 
       font-weight:bold;
-    }
+    }/*CSS for the srolling texts*/
+
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body{
+  min-height: 100vh;
+  /* background: #0008 url(Wallpaper.jpg) ; */
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper{
+  /* position: absolute; */
+  top: 10%;
+  left: 7%;
+  color: white;
+  padding: 1rem;
+}
+.wrapper p{
+  width: 55vw;
+  margin: 1rem 0;
+}
+.wrapper button{
+  padding: .8rem 1.6rem;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 2rem ;
+  font-size: 1rem;
+}
+.wrapper .content{
+  font: lighter 30px "poppins", sans-serif;
+}
+.wrapper .content ol{
+  list-style: none;
+  --height: 3.8rem;
+  height: var(--height);
+  line-height: var(--height);
+
+  overflow: hidden;
+
+}
+.wrapper .content ol li{
+  animation: slide-up 12s infinite;
+}
+
+@keyframes slide-up{
+  0%, 10%{
+    transform: translateY(0%);
+  }
+  15%, 25%{
+    transform: translateY(-100%);
+  }
+  30%, 40%{
+    transform: translateY(-200%);
+  }
+  45%, 55%{
+    transform: translateY(-300%);
+  }
+  60%, 70%{
+    transform: translateY(-400%);
+  }
+  80%, 90%{
+    transform: translateY(-500%);
+  }
+}
+
+.wrapper .content ol li span{
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(20deg, cyan,rgb(163, 119, 5));
+  -webkit-background-clip: text;
+  white-space:nowrap ;
+}
+
+/*CSS for the srolling texts*/
     .hero{
       /* border: orange solid 2px; */
       border-radius: 10px;
@@ -675,7 +773,7 @@ body{
       /* justify-content: space-evenly; */
       flex-wrap: wrap;
       animation: appear 2s;
-      width: 60%;
+      width: 100%;
       align-self: center;
       margin: auto;
     }
@@ -842,7 +940,7 @@ body{
   /* width: 100%; */
 }
 .projectContainer{
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   align-items: first baseline;
@@ -989,7 +1087,7 @@ body{
   background-color: #bc891a;
 }
 .aboutContainer{
-  display: flex;
+  display: block;
   margin: auto;
   margin-top: 20px;
   /* justify-content: center; */
@@ -997,12 +1095,12 @@ body{
   justify-content: space-evenly;
 }
 .projectNumber,.customerImpressions,.yearsOfExperience{
-  display: inline;
+  display: block;
   justify-content: center;
   text-align: center;
   border: orange 2px solid;
   border-radius: 10px;
-  width: 30%;
+  width: 100%;
 }
 .aboutTexts{
   color:white;
@@ -1072,86 +1170,7 @@ body{
     }
 
 
-/*CSS for the srolling texts*/
 
-    *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
-}
-body{
-  min-height: 100vh;
-  /* background: #0008 url(Wallpaper.jpg) ; */
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.wrapper{
-  /* position: absolute; */
-  top: 10%;
-  left: 7%;
-  color: white;
-  padding: 1rem;
-}
-.wrapper p{
-  width: 55vw;
-  margin: 1rem 0;
-}
-.wrapper button{
-  padding: .8rem 1.6rem;
-  background-color: crimson;
-  color: white;
-  border: none;
-  border-radius: 2rem ;
-  font-size: 1rem;
-}
-.wrapper .content{
-  font: lighter 2.5rem "poppins", sans-serif;
-}
-.wrapper .content ol{
-  list-style: none;
-  --height: 3.8rem;
-  height: var(--height);
-  line-height: var(--height);
-
-  overflow: hidden;
-
-}
-.wrapper .content ol li{
-  animation: slide-up 12s infinite;
-}
-
-@keyframes slide-up{
-  0%, 10%{
-    transform: translateY(0%);
-  }
-  15%, 25%{
-    transform: translateY(-100%);
-  }
-  30%, 40%{
-    transform: translateY(-200%);
-  }
-  45%, 55%{
-    transform: translateY(-300%);
-  }
-  60%, 70%{
-    transform: translateY(-400%);
-  }
-  80%, 90%{
-    transform: translateY(-500%);
-  }
-}
-
-.wrapper .content ol li span{
-  font-weight: bold;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(20deg, cyan,rgb(163, 119, 5));
-  -webkit-background-clip: text;
-  white-space:nowrap ;
-}
-
-/*CSS for the srolling texts*/
 .have{
   margin: auto;
   text-align: center;
