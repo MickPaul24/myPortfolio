@@ -686,11 +686,12 @@ body{
       
     }
     .text{
+      font-weight: bold;
       position: relative;
       margin: auto;
       margin-bottom: 2px;
       margin-top: 0px;
-      color: rgb(0, 0, 0);
+      color: rgb(243, 189, 64);
       font-size: 20px;
       letter-spacing: 1px;
       font-family: monospace;
