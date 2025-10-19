@@ -208,7 +208,7 @@
     }
 .projectShowcase{
   border-radius: 9px;
-  border: solid orange 2px;
+  /* border: solid orange 2px; */
   margin: auto;
   text-align: center;
   /* display: flex; */
@@ -234,7 +234,7 @@
   width: 100%;
   /* display: flex; */
   padding: 5px;
-  background: linear-gradient(45deg,black,orange,black,black,orange,black);
+  background: linear-gradient(125deg,black,rgb(190, 127, 10),black);
 }
 .projectOneImage{
   /* width: 100%; */
@@ -261,7 +261,13 @@
 .projectDes2.active{
   display: block;
 }
-.showButton1, .showButton2{
+.projectDes3{
+  display: none;
+}
+.projectDes3.active{
+  display: block;
+}
+.showButton1, .showButton2 , .showButton3{
     color: black;
   background-color: orange;
   padding: 5px;
@@ -271,7 +277,7 @@
   display: block;
   width: 100%;
 }
-.showButton1:active, .showButton2:active{
+.showButton1:active, .showButton2:active, .showButton3:active{
   color: white;
 }
 .visitButton{
@@ -562,6 +568,7 @@ body{
   padding: 20px;
   width: 95%;
   margin: auto;
+  margin-top: 10px;
 }
 .nametxt, .emailtxt{
   width: 100%;
