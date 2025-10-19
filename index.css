@@ -1048,7 +1048,7 @@ body{
 }
 
 .reviewcarousel {
-  width: 400px;
+  width: 280px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -1062,7 +1062,7 @@ body{
   font-size: 15px;
 }
 .carousel-item {
-  min-width: 400px;
+  min-width: 280px;
   height: 200px;
   background: linear-gradient(45deg,black,orange);
   color: white;
