@@ -5,6 +5,7 @@
 }
     body::-webkit-scrollbar{
       width: 0px;
+      /* background-color: orange; */
     }
     .container{
       display: inline-block;
@@ -270,7 +271,7 @@
   display: block;
   width: 100%;
 }
-.showButton:active{
+.showButton1:active, .showButton2:active{
   color: white;
 }
 .visitButton{
@@ -286,6 +287,32 @@
 .visitButton:hover{
   cursor: pointer;
 }
+.clients{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color: orange;
+}
+.clientsHeading{
+      margin: auto;
+      margin-bottom: 2px;
+      margin-top: 0px;
+      color: orange;
+      font-size: 50px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-family: monospace;
+      border-right: 5px solid;
+      /* border-radius: 9999px; */
+      width: 36%;
+      white-space: nowrap;
+      overflow: hidden;
+      animation-timeline: view();
+      animation: 
+                /* typing 3s , */
+                 typing 6s steps(17),
+                 cursor .4s step-end infinite alternate;
+    }
 .aboutContainer{
   display: flex;
   margin: auto;
@@ -450,7 +477,35 @@ body{
 }
 
 /*CSS for the srolling texts*/
-
+.have{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color: orange;
+}
+.haveHeading{
+      margin: auto;
+      margin-bottom: 2px;
+      margin-top: 0px;
+      color: orange;
+      font-size: 50px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-family: monospace;
+      border-right: 5px solid;
+      /* border-radius: 9999px; */
+      width: 36%;
+      white-space: nowrap;
+      overflow: hidden;
+      animation-timeline: view();
+      animation: 
+                /* typing 3s , */
+                 typing 6s steps(17),
+                 cursor .4s step-end infinite alternate;
+    }
+    .haveText{
+      color: white;
+    }
 .form{
   color: orange;
   border: orange solid 2px;
@@ -529,7 +584,7 @@ body{
 .carousel-item {
   min-width: 400px;
   height: 200px;
-  background-color: #3498db;
+  background: linear-gradient(45deg,black,orange);
   color: white;
   font-size: 24px;
   display: flex;
