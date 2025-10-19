@@ -444,6 +444,7 @@ body{
   padding: 5px;
   border-radius: 5px;
   border: solid;
+  margin-top: 5px;
 }
 .submitButton:hover{
   cursor: pointer;
