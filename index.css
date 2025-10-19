@@ -246,13 +246,19 @@
 .projectOne ul{
   display: inline;
 }
-.projectDes{
+.projectDes1{
   display: none;
 }
-.projectDes.active{
+.projectDes1.active{
   display: block;
 }
-.showButton{
+.projectDes2{
+  display: none;
+}
+.projectDes2.active{
+  display: block;
+}
+.showButton1, .showButton2{
     color: black;
   background-color: orange;
   padding: 5px;
