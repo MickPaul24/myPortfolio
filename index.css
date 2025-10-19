@@ -448,3 +448,13 @@ body{
 .submitButton:hover{
   cursor: pointer;
 }
+.footer{
+  color: rgb(255, 255, 255);
+  margin: auto;
+  justify-content: center;
+}
+.footerText{
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
