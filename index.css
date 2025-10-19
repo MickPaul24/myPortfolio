@@ -313,6 +313,55 @@
                  typing 6s steps(17),
                  cursor .4s step-end infinite alternate;
     }
+
+
+    .reviewcarousel-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.reviewcarousel {
+  width: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reviewcarousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.review1{
+  font-size: 15px;
+}
+.carousel-item {
+  min-width: 400px;
+  height: 200px;
+  background: linear-gradient(45deg,black,orange);
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #fff;
+}
+
+.nav-btn {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 999px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #bc891a;
+}
 .aboutContainer{
   display: flex;
   margin: auto;
@@ -562,48 +611,4 @@ body{
 
 
 
-.reviewcarousel-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: center;
-}
 
-.reviewcarousel {
-  width: 400px;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.reviewcarousel-track {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-  min-width: 400px;
-  height: 200px;
-  background: linear-gradient(45deg,black,orange);
-  color: white;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-right: 2px solid #fff;
-}
-
-.nav-btn {
-  background-color: orange;
-  color: rgb(0, 0, 0);
-  border: none;
-  border-radius: 999px;
-  padding: 10px 15px;
-  cursor: pointer;
-  font-size: 20px;
-  transition: 0.3s;
-}
-
-.nav-btn:hover {
-  background-color: #bc891a;
-}
