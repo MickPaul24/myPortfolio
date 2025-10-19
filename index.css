@@ -682,7 +682,7 @@ body{
       /* animation: appear 2s; */
       color:white; 
       font-family: Arial, Helvetica, sans-serif; 
-      margin-top: 33px; 
+      margin-top: 27px; 
       font-size: 23px; 
       font-weight:bold;
     }/*CSS for the srolling texts*/
@@ -699,7 +699,7 @@ body{
   top: 10%;
   left: 7%;
   color: white;
-  padding: 1rem;
+  padding: 10px;
 }
 .wrapper p{
   width: 55vw;
