@@ -246,6 +246,25 @@
 .projectOne ul{
   display: inline;
 }
+.projectDes{
+  display: none;
+}
+.projectDes.active{
+  display: block;
+}
+.showButton{
+    color: black;
+  background-color: orange;
+  padding: 5px;
+  display: inline;
+  border: solid;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+}
+.showButton:active{
+  color: white;
+}
 .visitButton{
   color: black;
   background-color: orange;
