@@ -663,12 +663,12 @@ body{
       margin-bottom: 2px;
       margin-top: 0px;
       color: rgb(235, 178, 45);
-      font-size: 30px;
+      font-size: 20px;
       letter-spacing: 1px;
       font-family: monospace;
       border-right: 5px solid;
       /* border-radius: 9999px; */
-      width: 100%;
+      width: 99%;
       white-space: nowrap;
       overflow: hidden;
       animation-timeline: view();
@@ -683,7 +683,7 @@ body{
       color:white; 
       font-family: Arial, Helvetica, sans-serif; 
       margin-top: 0px; 
-      font-size: 30px; 
+      font-size: 20px; 
       font-weight:bold;
     }/*CSS for the srolling texts*/
 
@@ -709,7 +709,7 @@ body{
 }
 .wrapper p{
   width: 55vw;
-  margin: 1rem 0;
+  margin: 15px 0;
 }
 .wrapper button{
   padding: .8rem 1.6rem;
@@ -1105,19 +1105,19 @@ body{
   text-align: center;
   border: orange 2px solid;
   border-radius: 10px;
-  width: 100%;
+  width: 98%;
   margin: 5px;
   font-size: 10px;
 }
 .aboutTexts{
   color:white;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 20px;
   margin-bottom: 12px;
 }
 .aboutTexts2{
   color:white;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 10px;
   margin-bottom: 20px;
 
@@ -1206,6 +1206,7 @@ body{
     }
     .haveText{
       color: white;
+      width: 98%;
     }
 .form{
   color: orange;
