@@ -448,6 +448,14 @@ body{
 .submitButton:hover{
   cursor: pointer;
 }
+.socialMediaIcons2{
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  opacity: 0.9;
+  margin-top: 10px;
+}
 .footer{
   color: rgb(255, 255, 255);
   margin: auto;
@@ -456,5 +464,5 @@ body{
 .footerText{
   margin: auto;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
