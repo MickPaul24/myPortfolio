@@ -682,8 +682,8 @@ body{
       /* animation: appear 2s; */
       color:white; 
       font-family: Arial, Helvetica, sans-serif; 
-      margin-top: 0px; 
-      font-size: 20px; 
+      margin-top: 30px; 
+      font-size: 25px; 
       font-weight:bold;
     }/*CSS for the srolling texts*/
 
@@ -693,13 +693,7 @@ body{
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
-body{
-  min-height: 100vh;
-  /* background: #0008 url(Wallpaper.jpg) ; */
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .wrapper{
   /* position: absolute; */
   top: 10%;
@@ -709,18 +703,18 @@ body{
 }
 .wrapper p{
   width: 55vw;
-  margin: 15px 0;
+  margin: 5px 0;
 }
 .wrapper button{
-  padding: .8rem 1.6rem;
+  padding: .7rem 1.6rem;
   background-color: crimson;
   color: white;
   border: none;
   border-radius: 2rem ;
-  font-size: 1rem;
+  font-size: 5px;
 }
 .wrapper .content{
-  font: lighter 30px "poppins", sans-serif;
+  font: lighter 25px "poppins", sans-serif;
 }
 .wrapper .content ol{
   list-style: none;
