@@ -224,6 +224,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  align-items: first baseline;
 }
 .projectOne{
   border: solid orange 1px;
@@ -232,6 +233,7 @@
   width: 100%;
   /* display: flex; */
   padding: 5px;
+  background: linear-gradient(45deg,black,orange,black,black,orange,black);
 }
 .projectOneImage{
   /* width: 100%; */
