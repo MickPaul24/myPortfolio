@@ -846,13 +846,13 @@ body{
       margin-bottom: 2px;
       margin-top: 0px;
       color: orange;
-      font-size: 50px;
+      font-size: 25px;
       font-weight: bold;
       letter-spacing: 1px;
       font-family: monospace;
       border-right: 5px solid;
       /* border-radius: 9999px; */
-      width: 17%;
+      width: 30%;
       white-space: nowrap;
       overflow: hidden;
       animation-timeline: view();
@@ -914,13 +914,13 @@ body{
       margin-bottom: 2px;
       margin-top: 0px;
       color: orange;
-      font-size: 50px;
+      font-size: 25px;
       font-weight: bold;
       letter-spacing: 1px;
       font-family: monospace;
       border-right: 5px solid;
       /* border-radius: 9999px; */
-      width: 23%;
+      width: 45%;
       white-space: nowrap;
       overflow: hidden;
       animation-timeline: view();
@@ -1027,13 +1027,13 @@ body{
       margin-bottom: 2px;
       margin-top: 0px;
       color: orange;
-      font-size: 50px;
+      font-size: 25px;
       font-weight: bold;
       letter-spacing: 1px;
       font-family: monospace;
       border-right: 5px solid;
       /* border-radius: 9999px; */
-      width: 36%;
+      width: 70%;
       white-space: nowrap;
       overflow: hidden;
       animation-timeline: view();
@@ -1189,13 +1189,13 @@ body{
       margin-bottom: 2px;
       margin-top: 0px;
       color: orange;
-      font-size: 50px;
+      font-size: 25px;
       font-weight: bold;
       letter-spacing: 1px;
       font-family: monospace;
       border-right: 5px solid;
       /* border-radius: 9999px; */
-      width: 36%;
+      width: 65%;
       white-space: nowrap;
       overflow: hidden;
       animation-timeline: view();
