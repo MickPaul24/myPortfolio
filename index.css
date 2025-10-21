@@ -544,13 +544,18 @@ body{
     @keyframes appear{
       from{
         opacity: 0;
-        scale:0.5;
+        scale:0.9;
       }
       to{
         opacity: 1;
         scale: 1;
       }
     }
+
+
+
+
+
     .projectOne{
         animation:appear linear;
         animation-timeline: view();
@@ -558,6 +563,10 @@ body{
         z-index: 0;
         animation-delay: 10s;
       }
+
+
+
+
     @keyframes appear2{
       from{
         opacity:0;
