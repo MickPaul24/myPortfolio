@@ -158,7 +158,9 @@ body{
       height: 280px;
       width: 280px;
       border-radius: 999px;
-      background-image: url(me.png);
+      background-image: url(images/3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     .do{
       margin: auto;
@@ -825,7 +827,9 @@ body{
       height: 280px;
       width: 280px;
       border-radius: 999px;
-      background-image: url(me.png);
+      background-image: url(images/3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     .do{
       margin: auto;
