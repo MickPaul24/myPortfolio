@@ -459,6 +459,8 @@ body{
   align-items: center;
   justify-content: center;
   border-right: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-btn {
