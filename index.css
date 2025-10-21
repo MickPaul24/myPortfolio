@@ -139,6 +139,7 @@ body{
       width: 60%;
       align-self: center;
       margin: auto;
+      
     }
     .pic{
       border-style: solid;
@@ -153,6 +154,7 @@ body{
       /* overflow: hidden; */
       /* justify-self: right; */
       margin: auto;
+      
     }
     .me{
       height: 280px;
@@ -190,7 +192,7 @@ body{
       width:50px;
       padding: 5px;
       border-radius: 9px;
-      animation: moves infinite 0.4s ease-in-out;
+      animation: moves infinite 3s ease-in-out;
       transition: 2s;
     }   
     /* .do1Image{
@@ -536,25 +538,28 @@ body{
 
 @keyframes moves{
   0%, 10%{
-    transform: translateX(-1px);
+    
+    background: linear-gradient(50deg,black,orange);
   }
   15%, 25%{
-    transform: translateX(1px);
+  
+    background: linear-gradient(100deg,black,orange);
   }
   30%, 40%{
-    transform: translateX(-1px);
+    
+    background: linear-gradient(150deg,black,orange);
   }
   45%, 55%{
-    transform: translateX(1px) ;
+    background: linear-gradient(200deg,black,orange);
   }
   60%, 70%{
-    transform: translateX(-1px);
+    background: linear-gradient(250deg,black,orange);
   }
   80%, 90%{
-    transform: translateX(1px);
+  background: linear-gradient(300deg,black,orange);
   }
   95%, 100%{
-    transform: translateX(-1px);
+    background: linear-gradient(360deg,black,orange);
   }
 }
 
@@ -903,7 +908,7 @@ body{
       width:50px;
       padding: 5px;
       border-radius: 9px;
-      animation: moves infinite 0.4s ease-in-out;
+      animation: moves infinite 1.5s ease-in-out;
       transition: 2s;
     }   
     /* .do1Image{
@@ -1238,27 +1243,30 @@ body{
         /* opacity: 0; */
       }
     }
-    @keyframes moves{
+@keyframes moves{
   0%, 10%{
-    transform: translateX(-1px);
+    
+    background: linear-gradient(50deg,black,orange);
   }
   15%, 25%{
-    transform: translateX(1px);
+  
+    background: linear-gradient(100deg,black,orange);
   }
   30%, 40%{
-    transform: translateX(-1px);
+    
+    background: linear-gradient(150deg,black,orange);
   }
   45%, 55%{
-    transform: translateX(1px) ;
+    background: linear-gradient(200deg,black,orange);
   }
   60%, 70%{
-    transform: translateX(-1px);
+    background: linear-gradient(250deg,black,orange);
   }
   80%, 90%{
-    transform: translateX(1px);
+  background: linear-gradient(300deg,black,orange);
   }
   95%, 100%{
-    transform: translateX(-1px);
+    background: linear-gradient(360deg,black,orange);
   }
 }
 
