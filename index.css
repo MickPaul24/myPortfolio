@@ -192,7 +192,7 @@ body{
       width:50px;
       padding: 5px;
       border-radius: 9px;
-      animation: moves infinite 3s ease-in-out;
+      animation: moves infinite 60s ease-in-out;
       transition: 2s;
     }   
     /* .do1Image{
@@ -537,28 +537,71 @@ body{
     }
 
 @keyframes moves{
-  0%, 10%{
+  0%, 5%{
     
-    background: linear-gradient(50deg,black,orange);
+    background: linear-gradient(18deg,black,orange);
   }
-  15%, 25%{
+  6%, 10%{
+    
+    background: linear-gradient(36deg,black,orange);
+  }
+  11%, 15%{
+    
+    background: linear-gradient(55deg,black,orange);
+  }
+  16%, 20%{
   
-    background: linear-gradient(100deg,black,orange);
+    background: linear-gradient(72deg,black,orange);
   }
-  30%, 40%{
+  21%, 25%{
     
-    background: linear-gradient(150deg,black,orange);
+    background: linear-gradient(90deg,black,orange);
   }
-  45%, 55%{
-    background: linear-gradient(200deg,black,orange);
+  26%, 30%{
+    
+    background: linear-gradient(108deg,black,orange);
   }
-  60%, 70%{
-    background: linear-gradient(250deg,black,orange);
+  31%, 35%{
+    
+    background: linear-gradient(126deg,black,orange);
   }
-  80%, 90%{
-  background: linear-gradient(300deg,black,orange);
+  36%, 40%{
+    background: linear-gradient(144deg,black,orange);
   }
-  95%, 100%{
+  41%, 45%{
+    background: linear-gradient(162deg,black,orange);
+  }
+  46%, 50%{
+  background: linear-gradient(180deg,black,orange);
+  }
+  51%, 55%{
+    background: linear-gradient(198deg,black,orange);
+  }
+  56%, 60%{
+  background: linear-gradient(216deg,black,orange);
+  }
+  61%, 65%{
+    background: linear-gradient(234deg,black,orange);
+  }
+  66%, 70%{
+  background: linear-gradient(252deg,black,orange);
+  }
+  71%, 75%{
+    background: linear-gradient(270deg,black,orange);
+  }
+  76%, 80%{
+  background: linear-gradient(288deg,black,orange);
+  }
+  81%, 85%{
+    background: linear-gradient(306deg,black,orange);
+  }
+  86%, 90%{
+  background: linear-gradient(324deg,black,orange);
+  }
+  91%, 95%{
+    background: linear-gradient(342deg,black,orange);
+  }
+  96%,100%{
     background: linear-gradient(360deg,black,orange);
   }
 }
@@ -908,7 +951,7 @@ body{
       width:50px;
       padding: 5px;
       border-radius: 9px;
-      animation: moves infinite 1.5s ease-in-out;
+      animation: moves infinite 60s ease-in-out;
       transition: 2s;
     }   
     /* .do1Image{
@@ -1244,28 +1287,71 @@ body{
       }
     }
 @keyframes moves{
-  0%, 10%{
+  0%, 5%{
     
-    background: linear-gradient(50deg,black,orange);
+    background: linear-gradient(18deg,black,orange);
   }
-  15%, 25%{
+  6%, 10%{
+    
+    background: linear-gradient(36deg,black,orange);
+  }
+  11%, 15%{
+    
+    background: linear-gradient(55deg,black,orange);
+  }
+  16%, 20%{
   
-    background: linear-gradient(100deg,black,orange);
+    background: linear-gradient(72deg,black,orange);
   }
-  30%, 40%{
+  21%, 25%{
     
-    background: linear-gradient(150deg,black,orange);
+    background: linear-gradient(90deg,black,orange);
   }
-  45%, 55%{
-    background: linear-gradient(200deg,black,orange);
+  26%, 30%{
+    
+    background: linear-gradient(108deg,black,orange);
   }
-  60%, 70%{
-    background: linear-gradient(250deg,black,orange);
+  31%, 35%{
+    
+    background: linear-gradient(126deg,black,orange);
   }
-  80%, 90%{
-  background: linear-gradient(300deg,black,orange);
+  36%, 40%{
+    background: linear-gradient(144deg,black,orange);
   }
-  95%, 100%{
+  41%, 45%{
+    background: linear-gradient(162deg,black,orange);
+  }
+  46%, 50%{
+  background: linear-gradient(180deg,black,orange);
+  }
+  51%, 55%{
+    background: linear-gradient(198deg,black,orange);
+  }
+  56%, 60%{
+  background: linear-gradient(216deg,black,orange);
+  }
+  61%, 65%{
+    background: linear-gradient(234deg,black,orange);
+  }
+  66%, 70%{
+  background: linear-gradient(252deg,black,orange);
+  }
+  71%, 75%{
+    background: linear-gradient(270deg,black,orange);
+  }
+  76%, 80%{
+  background: linear-gradient(288deg,black,orange);
+  }
+  81%, 85%{
+    background: linear-gradient(306deg,black,orange);
+  }
+  86%, 90%{
+  background: linear-gradient(324deg,black,orange);
+  }
+  91%, 95%{
+    background: linear-gradient(342deg,black,orange);
+  }
+  96%,100%{
     background: linear-gradient(360deg,black,orange);
   }
 }
