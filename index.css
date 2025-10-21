@@ -190,7 +190,7 @@ body{
       width:50px;
       padding: 5px;
       border-radius: 9px;
-      animation: moves infinite 2s ease-in-out;
+      animation: moves infinite 0.4s ease-in-out;
       transition: 2s;
     }   
     /* .do1Image{
@@ -521,16 +521,44 @@ body{
       from{
         /* transform: translateX(4px); */
         /* transform: translateY(0px); */
-        scale: 1;
+        /* scale: 1; */
         /* opacity: 1; */
+        /* rotate: 0deg; */
       }
       to{
         /* transform: translateX(0px); */
         /* transform: translateY(2px); */
-        scale: 1.04;
+        /* scale: 1.04; */
         /* opacity: 0; */
+        /* rotate: 360deg; */
       }
     }
+
+@keyframes moves{
+  0%, 10%{
+    transform: translateX(-1px);
+  }
+  15%, 25%{
+    transform: translateX(1px);
+  }
+  30%, 40%{
+    transform: translateX(-1px);
+  }
+  45%, 55%{
+    transform: translateX(1px) ;
+  }
+  60%, 70%{
+    transform: translateX(-1px);
+  }
+  80%, 90%{
+    transform: translateX(1px);
+  }
+  95%, 100%{
+    transform: translateX(-1px);
+  }
+}
+
+
 
     @keyframes cursor {
       50%{
@@ -559,7 +587,7 @@ body{
     .projectOne{
         animation:appear linear;
         animation-timeline: view();
-        animation-range: entry 0 cover 20%;
+        animation-range: entry 0 cover 15%;
         z-index: 0;
         animation-delay: 10s;
       }
@@ -875,7 +903,7 @@ body{
       width:50px;
       padding: 5px;
       border-radius: 9px;
-      animation: moves infinite 2s ease-in-out;
+      animation: moves infinite 0.4s ease-in-out;
       transition: 2s;
     }   
     /* .do1Image{
@@ -1200,16 +1228,39 @@ body{
       from{
         /* transform: translateX(4px); */
         /* transform: translateY(0px); */
-        scale: 1;
+        /* scale: 1; */
         /* opacity: 1; */
       }
       to{
         /* transform: translateX(0px); */
         /* transform: translateY(2px); */
-        scale: 1.04;
+        /* scale: 1.04; */
         /* opacity: 0; */
       }
     }
+    @keyframes moves{
+  0%, 10%{
+    transform: translateX(-1px);
+  }
+  15%, 25%{
+    transform: translateX(1px);
+  }
+  30%, 40%{
+    transform: translateX(-1px);
+  }
+  45%, 55%{
+    transform: translateX(1px) ;
+  }
+  60%, 70%{
+    transform: translateX(-1px);
+  }
+  80%, 90%{
+    transform: translateX(1px);
+  }
+  95%, 100%{
+    transform: translateX(-1px);
+  }
+}
 
     @keyframes cursor {
       50%{
