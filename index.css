@@ -551,6 +551,13 @@ body{
         scale: 1;
       }
     }
+    .projectOne{
+        animation:appear linear;
+        animation-timeline: view();
+        animation-range: entry 0 cover 20%;
+        z-index: 0;
+        animation-delay: 10s;
+      }
     @keyframes appear2{
       from{
         opacity:0;
