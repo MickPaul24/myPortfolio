@@ -951,7 +951,7 @@ body{
       width:50px;
       padding: 5px;
       border-radius: 9px;
-      animation: moves infinite 60s ease-in-out;
+      animation: moves infinite 120s ease-in-out;
       transition: 2s;
     }   
     /* .do1Image{
