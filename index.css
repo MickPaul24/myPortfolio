@@ -218,6 +218,7 @@ body{
       width: 52%;
       white-space: nowrap;
       overflow: hidden;
+      /* animation-delay: 80s; */
       animation-timeline: view();
       animation: 
                 /* typing 3s , */
