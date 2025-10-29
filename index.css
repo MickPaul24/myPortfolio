@@ -215,7 +215,7 @@ body{
       font-family: monospace;
       border-right: 5px solid;
       /* border-radius: 9999px; */
-      width: 52%;
+      width: 28%;
       white-space: nowrap;
       overflow: hidden;
       /* animation-delay: 80s; */
@@ -226,7 +226,17 @@ body{
                  cursor .4s step-end infinite alternate;
                  
     }
-
+.frameWorks{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.frameWorks img{
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+}
     .toolsHeading{
       margin: auto;
       margin-bottom: 2px;
@@ -975,7 +985,7 @@ body{
       font-family: monospace;
       border-right: 5px solid;
       /* border-radius: 9999px; */
-      width: 90%;
+      width: 45%;
       white-space: nowrap;
       overflow: hidden;
       animation-timeline: view();
@@ -985,6 +995,17 @@ body{
                  cursor .4s step-end infinite alternate;
                  
     }
+    .frameWorks{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.frameWorks img{
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+}
     .toolsHeading{
       margin: auto;
       margin-bottom: 2px;
