@@ -1051,7 +1051,7 @@ body{
 }
 .carousel-track {
   display: flex;
-  animation: scroll 17s linear infinite;
+  animation: scroll2 17s linear infinite;
 }
 .carousel-track.paused {
   animation-play-state: paused;
@@ -1292,6 +1292,10 @@ body{
     @keyframes scroll {
       0% { transform: translateX(0); }
       100% { transform: translateX(-80%); }
+    }
+    @keyframes scroll2 {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-130%); }
     }
 
     @keyframes moves{
