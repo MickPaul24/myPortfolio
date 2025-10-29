@@ -1,3 +1,4 @@
+    //show more button js
     const showBtn = document.querySelector(".showButton1");
     const showBtn2 = document.querySelector(".showButton2");
     const showBtn3 = document.querySelector(".showButton3");
@@ -25,13 +26,12 @@
     //   showBtn.classList.remove("active");
     //   projectD.classList.remove("active");
     // }))
+//show more button js
 
 
 
-
-
-    //review navigation button js
-    const track = document.querySelector(".reviewcarousel-track");
+//reviews navigation button js
+const track = document.querySelector(".reviewcarousel-track");
 const items = document.querySelectorAll(".carousel-item");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
@@ -52,3 +52,4 @@ prevBtn.addEventListener("click", () => {
   index = (index - 1 + items.length) % items.length;
   updateCarousel();
 });
+//reviews navigation button js
