@@ -18,7 +18,7 @@
       margin: auto;
       margin-bottom: 2px;
       margin-top: 0px;
-      color: rgb(235, 178, 45);
+      color: rgba(235, 178, 45, 0.807);
       font-size: 30px;
       letter-spacing: 1px;
       font-family: monospace;
@@ -693,7 +693,7 @@ body{
       font-family: monospace;
       border-right: 5px solid;
       /* border-radius: 9999px; */
-      width: 36%;
+      width: 38%;
       white-space: nowrap;
       overflow: hidden;
       animation-timeline: view();
