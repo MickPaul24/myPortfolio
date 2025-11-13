@@ -2,10 +2,12 @@
     const showBtn = document.querySelector(".showButton1");
     const showBtn2 = document.querySelector(".showButton2");
     const showBtn3 = document.querySelector(".showButton3");
+    const showBtn4 = document.querySelector(".showButton4");
 
     const projectD = document.querySelector(".projectDes1");
     const projectD2 = document.querySelector(".projectDes2");
     const projectD3 = document.querySelector(".projectDes3");
+    const projectD4 = document.querySelector(".projectDes4");
 
     showBtn.addEventListener("click",()=>{
       showBtn.classList.toggle("active");
@@ -20,6 +22,11 @@
     showBtn3.addEventListener("click",()=>{
       showBtn.classList.toggle("active");
       projectD3.classList.toggle("active");
+    })
+
+    showBtn4.addEventListener("click",()=>{
+      showBtn.classList.toggle("active");
+      projectD4.classList.toggle("active");
     })
 
     // document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click",() =>{
