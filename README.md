@@ -7,7 +7,7 @@ A fast, minimal, and purpose-driven portfolio website showcasing my work, skills
 ---
 
 ## 🔗 Live Demo
-👉 https://your-domain.com
+👉 https://mickpaul.vercel.app/
 
 ---
 
@@ -57,7 +57,7 @@ If your structure is chaotic, your thinking probably is too.
 ## 🚀 Getting Started
 
 Clone the repository:
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/MickPaul24/myPortfolio.git
 
 Install dependencies:
 npm install
@@ -97,9 +97,9 @@ If it’s not live, it doesn’t exist.
 
 ## 📬 Contact
 
-- Email: your@email.com  
-- GitHub: https://github.com/your-username  
-- LinkedIn: https://linkedin.com/in/your-profile  
+- Email: mickalexan24@email.com  
+- GitHub: https://github.com/MickPaul24/myPortfolio
+- LinkedIn: https://www.linkedin.com/in/mickpaul-kuteesa-b7a0bb333
 
 Make it easy to contact you or stop complaining about silence.
 
