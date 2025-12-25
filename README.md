@@ -2,21 +2,21 @@
 
 A fast, minimal, and purpose-driven portfolio website showcasing my work, skills, and professional background.
 
-> This site exists to **convert visitors into opportunities**, not to show off random animations.
+> This site exists to convert visitors into opportunities, not to entertain them.
 
 ---
 
 ## 🔗 Live Demo
-👉 **[View Portfolio](https://your-domain.com)**
+👉 https://your-domain.com
 
 ---
 
 ## 📌 Features
 
-- Responsive design (works on mobile, tablet, desktop)
-- Clean UI focused on readability and clarity
+- Responsive design (mobile, tablet, desktop)
+- Clean UI focused on clarity and usability
 - Projects section with real-world examples
-- About section that explains **value**, not life history
+- About section focused on value, not biography
 - Contact section with direct call-to-action
 - Optimized for performance and SEO
 
@@ -24,7 +24,7 @@ A fast, minimal, and purpose-driven portfolio website showcasing my work, skills
 
 ## 🛠 Tech Stack
 
-These badges are **illustrative GitHub-style buttons**, not decoration. If you don’t actually use a tool, don’t include it.
+GitHub-style badge buttons (illustrative only — don’t lie about your stack).
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -37,21 +37,18 @@ These badges are **illustrative GitHub-style buttons**, not decoration. If you d
 ## 📂 Project Structure
 
 ├── public/
-│ └── assets/
+│   └── assets/
+│       ├── images/
+│       └── icons/
 ├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── styles/
-│ └── data/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── data/
+│   └── utils/
 ├── README.md
-└── package.json
-
-
-
-
-
-
-
+├── package.json
+└── vite.config.js
 
 If your structure is chaotic, your thinking probably is too.
 
@@ -59,7 +56,58 @@ If your structure is chaotic, your thinking probably is too.
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-```bash
+Clone the repository:
 git clone https://github.com/your-username/portfolio.git
 
+Install dependencies:
+npm install
+
+Run locally:
+npm run dev
+
+If this fails, the issue is your setup — not the framework.
+
+---
+
+## 🧠 Customization
+
+- Update personal content in /src/data
+- Replace images in /public/assets
+- Adjust theme colors in /src/styles
+- Remove sections that don’t serve a purpose
+
+Rule:
+If a section doesn’t help you get hired, paid, or trusted — delete it.
+
+---
+
+## 📈 Deployment
+
+Deployed using Vercel.
+
+Build:
+npm run build
+
+Deploy:
+vercel deploy
+
+If it’s not live, it doesn’t exist.
+
+---
+
+## 📬 Contact
+
+- Email: your@email.com  
+- GitHub: https://github.com/your-username  
+- LinkedIn: https://linkedin.com/in/your-profile  
+
+Make it easy to contact you or stop complaining about silence.
+
+---
+
+## 📄 License
+
+MIT License
+
+Use it. Modify it.
+Just don’t ship mediocrity.
