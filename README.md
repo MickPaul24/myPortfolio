@@ -35,6 +35,8 @@ GitHub-style badge buttons (illustrative only — don’t lie about your stack).
 
 ## 📂 Project Structure
 
+---
+
 ├── public/
 │   └── assets/
 │       ├── images/
@@ -50,6 +52,8 @@ GitHub-style badge buttons (illustrative only — don’t lie about your stack).
 └── vite.config.js
 
 If your structure is chaotic, your thinking probably is too.
+
+---
 
 ---
 
