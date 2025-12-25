@@ -36,4 +36,30 @@ These badges are **illustrative GitHub-style buttons**, not decoration. If you d
 
 ## 📂 Project Structure
 
+├── public/
+│ └── assets/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── styles/
+│ └── data/
+├── README.md
+└── package.json
+
+
+
+
+
+
+
+
+If your structure is chaotic, your thinking probably is too.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/portfolio.git
 
