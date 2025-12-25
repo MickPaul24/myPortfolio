@@ -13,41 +13,35 @@ body::-webkit-scrollbar{
 .header{
   z-index: 100;
   position: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
   /* backdrop-filter: blur(600px); */
   background-color: #050526;
   width: 100%;
   box-shadow: 0px 0px 5px orangered;
   height: 60px;
-  margin: auto;
-  margin-top: -5px;
-  /* border-bottom-left-radius: 8px; */
-  /* border-bottom-right-radius: 8px; */
-  justify-content: left;
+  /* margin: auto; */
+  align-content: center;
 }
 .logo{
   display: inline-flex;
   color: rgb(255, 255, 255);
   font-weight: bold;
   margin: auto;
-  text-align: left;
+  justify-self: flex-start;
   font-size: 30px;
+  margin-left: 150px;
 }
 .logo1{
   color: orangered;
 }
 .navbar{
   margin: auto;
-  display: flex;
+  display:inline-flex;
   flex-direction: row;
   color: gray;
   font-size: 20px;
   align-items: center;
-  /* position: relative;
-  left: 100px; */
-  justify-self: flex-end;
+  float: right;
+  margin-right: 100px;
 }
 .navbar ul{
   text-decoration: none;
@@ -58,11 +52,12 @@ body::-webkit-scrollbar{
 }
 .navbar ul li a{
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  
+  color:orangered;
   transition: 0.4s;
 }
 .navbar ul li a:hover{
-  color:orangered
+  color: rgb(255, 255, 255);
 }
 .hamburgerMenu{
   margin: auto;
@@ -357,7 +352,7 @@ body::-webkit-scrollbar{
 
 }
 .projectImage{
-  height: 100px;
+  height: 150px;
   filter: blur(1px);
   border-radius: 5px;
 }
