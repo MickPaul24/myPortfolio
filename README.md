@@ -100,7 +100,7 @@ If it’s not live, it doesn’t exist.
 
 ## 📬 Contact
 
-- Email: mickalexan24@email.com  
+- Email: mickalexan24@gmail.com  
 - GitHub: https://github.com/MickPaul24/myPortfolio
 - LinkedIn: https://www.linkedin.com/in/mickpaul-kuteesa-b7a0bb333
 
