@@ -16,14 +16,15 @@ body::-webkit-scrollbar{
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  backdrop-filter: blur(600px);
+  /* backdrop-filter: blur(600px); */
+  background-color: #050526;
   width: 100%;
   box-shadow: 0px 0px 5px orangered;
   height: 60px;
   margin: auto;
   margin-top: -5px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  /* border-bottom-left-radius: 8px; */
+  /* border-bottom-right-radius: 8px; */
   justify-content: left;
 }
 .logo{
@@ -489,8 +490,8 @@ body::-webkit-scrollbar{
   height: 60px;
   margin: auto;
   margin-top: -5px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  /* border-bottom-left-radius: 8px; */
+  /* border-bottom-right-radius: 8px; */
 }
 .logo{
   display: flex;
