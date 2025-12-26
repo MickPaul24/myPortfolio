@@ -66,7 +66,7 @@ body::-webkit-scrollbar{
   float: right;
   margin-right: 200px;
   display: none;
-  background-color: #201346;
+  background-color: #050526;
   padding: 4px;
   border-radius: 5px;
   box-shadow: 0px 0px 4px orangered;
@@ -548,7 +548,7 @@ body::-webkit-scrollbar{
   float: right;
   margin-right: 50px;
   /* display: none; */
-  background-color: #201346;
+  background-color: #050526;
   padding: 2px;
   border-radius: 5px;
   box-shadow: 0px 0px 4px orangered;
