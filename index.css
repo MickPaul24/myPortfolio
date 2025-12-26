@@ -61,25 +61,21 @@ body::-webkit-scrollbar{
 }
 .hamburgerMenu{
   margin: auto;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* border-radius: 8px;
-  border-style: solid;
-  border-color: white; */
-  align-content: center;
-  align-items: center;
+  float: right;
+  margin-right: 200px;
   display: none;
   background-color: #201346;
-  padding: 5px;
-  border-radius: 8px;
+  padding: 4px;
+  border-radius: 5px;
   box-shadow: 0px 0px 4px orangered;
 }
-.hamburgerMenu span{
+.hamburgerMenu .bar{
   background-color: orangered;
-  width: 35px;
+  width: 31px;
   height: 3px;
-  margin: 5px;
+  margin: 4px;
 }
 .hero{
   padding-top: 200px;
@@ -432,7 +428,13 @@ body::-webkit-scrollbar{
   height: 40px;
 }
 .footer{
-  background-color: black;
+  /* background-color: black; */
+  background-color: #050526;
+  height: 50px;
+  align-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: orangered;
 }
 .footertxt{
   color: white;
@@ -497,7 +499,7 @@ body::-webkit-scrollbar{
 }
 .navbar{
   margin: auto;
-  display: flex;
+  display: none;
   flex-direction: column;
   flex-wrap: wrap;
   color: gray;
@@ -541,21 +543,23 @@ body::-webkit-scrollbar{
 }
 .hamburgerMenu{
   margin: auto;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  align-items: center;
-  /* display: flex; */
-  margin-left: 150px;
-  /* height: 30px; */
-  justify-content: center;
-  align-items: center;
+  float: right;
+  margin-right: 50px;
+  /* display: none; */
+  background-color: #201346;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px orangered;
 }
-.bar{
+.hamburgerMenu .bar{
   background-color: orangered;
-  width: 28px;
+  width: 31px;
   height: 3px;
-  margin: 1px;
+  margin: 4px;
 }
+
 .hero{
   padding-top: 200px;
   display: flex;
@@ -911,7 +915,13 @@ body::-webkit-scrollbar{
   height: 40px;
 }
 .footer{
-  background-color: black;
+  /* background-color: black; */
+  background-color: #050526;
+  height: 30px;
+  align-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: orangered;
 }
 .footertxt{
   color: white;
