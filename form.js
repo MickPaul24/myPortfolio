@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if (response.ok) {
-      status.textContent = 'Message sent';
+      status.textContent = 'Message sent successfully!!';
       form.reset();
     } else {
-      status.textContent = 'Submission failed';
+      status.textContent = 'Oops! Submission failed.';
     }
   });
 });
