@@ -460,6 +460,68 @@ body::-webkit-scrollbar{
 
 
 
+.form__message {
+
+ padding: var(--spacing-sm);
+
+ border-radius: var(--radius-md);
+
+ margin-top: var(--spacing-sm);
+
+ display: none;
+
+}
+
+
+.form__message.success {
+
+ display: block;
+
+ background-color: rgba(16, 185, 129, 0.1);
+
+ color: var(--color-success);
+
+ border: 1px solid var(--color-success);
+
+}
+
+
+.form__message.error {
+
+ display: block;
+
+ background-color: rgba(239, 68, 68, 0.1);
+
+ color: var(--color-error);
+
+ border: 1px solid var(--color-error);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media( max-width:760px) {

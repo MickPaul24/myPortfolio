@@ -162,18 +162,59 @@
   <p class="contactDes">Do you have a project or any idea? Feel free to send me a message. I am also open to any workshops and freelance gigs. </p>
   <div class="contactContent">
     <div class="form">
-      <form action="https://formspree.io/f/xjkvjwll" method="POST">
+      <form action="https://formspree.io/f/xjkvjwll" method="POST" class="contactForm" id="contactForm" >
         <p class="formHeadings">Name</p>
-        <input class="formInputs" type="name" name="NAME:" placeholder=" Type your name here">
+        <input class="formInputs" type="name" name="NAME:" placeholder=" Type your name here" id="name">
         <p class="formHeadings">Email</p>
-        <input class="formInputs" type="email" name="EMAIL:" placeholder="Type your email here">
+        <input class="formInputs" type="email" name="EMAIL:" placeholder="Type your email here" id="email">
         <p class="formHeadings" >Company name(optional)</p>
-        <input class="formInputs" type="name" name="COMPANY NAME:" placeholder="Type your campany name here">
+        <input class="formInputs" type="name" name="COMPANY NAME:" placeholder="Type your campany name here" id="Company">
         <p class="formHeadings">Message</p>
-        <input class="formInputs" type="message" name="MESSAGE:" placeholder="Type your message here">
+        <input class="formInputs" type="message" name="MESSAGE:" placeholder="Type your message here" id="message">
         <button class="sendBtn" type="submit">SEND</button>
+        <div class="form__message" id="form-message"></div>
+
       </form>
+      <p id="status"></p>
+
+
+
+
+
+
+
+      <!-- <form class="contact-form" id="contact-form" action="https://formspree.io/f/xjkvjwll" method="POST">
+        <div class="form__group">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form__group">
+            <label for="company">Company Name</label>
+            <input type="text" name="company" id="company" placeholder="Company Name">
+        </div>
+        <div class="form__group">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email Address" required>
+        </div>
+        <div class="form__group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
+        </div>
+        <div class="form__group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+        <div class="form__message" id="form-message"></div>
+      </form> -->
     </div>
+
+
+
+    
+
+
+
     <div class="links">
       <a href=""><img src="socials/github.png" alt="1"></a>
       <a href=""><img src="socials/email.png" alt="2"></a>
@@ -188,11 +229,12 @@
        <b>MickPaul</b> | Copyright ©2025 All rights reserved.
       </p>
     </div>
-    <script src="index.js"></script>
+    
 
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
