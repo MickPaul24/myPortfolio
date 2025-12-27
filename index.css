@@ -348,7 +348,7 @@ body::-webkit-scrollbar{
 
 }
 .projectImage{
-  height: 150px;
+  height: 200px;
   filter: blur(1px);
   border-radius: 5px;
 }
@@ -859,7 +859,7 @@ body::-webkit-scrollbar{
 
 }
 .projectImage{
-  height: 100px;
+  height: 150px;
   filter: blur(1px);
   border-radius: 5px;
 }
