@@ -549,7 +549,7 @@ transition: 0.3s ease-in-out;
   transform:translateY(-11px)rotate(-45deg);
 transition: 0.3s ease-in-out;
   }
-  .nav-menu{
+  .nav-link{
   position: fixed;
   /* left:-100%; */
   top:-180px;
@@ -563,10 +563,8 @@ transition: 0.3s ease-in-out;
   border-radius: 20px;
   justify-content: center;
   }
-  .nav-item{
-  margin:16px 0;
-  }
-  .nav-menu.active{
+ 
+  .nav-link.active{
   /* left:0%; */
   top: 65px;
   }
@@ -627,6 +625,9 @@ transition: 0.3s ease-in-out;
   /* position: relative;
   left: 100px; */
   justify-self: flex-end;
+}
+.navbar.active{
+  display: block;
 }
 .navbar ul{
   margin-top: 40px;

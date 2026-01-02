@@ -35,7 +35,7 @@ prevBtn.addEventListener("click", () => {
 
 
     const hamburger = document.querySelector(".hamburgerMenu");
-    const navMenu = document.querySelector(".nav-link");
+    const navMenu = document.querySelector(".navbar");
 
     hamburger.addEventListener("click",()=>{
       hamburger.classList.toggle("active");
