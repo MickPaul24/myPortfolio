@@ -518,6 +518,109 @@ body::-webkit-scrollbar{
      display: flex;
      margin-right: 80px;
    }
+
+
+
+
+    .hamburgerMenu{
+  transition: 2s ease-in-out;
+  }
+  .hamburgerMenu.active .bar:nth-child(2){
+  opacity: 0;
+transition: 0.3s ease-in-out;
+  }
+  .hamburgerMenu.active .bar:nth-child(1){
+  transform:translateY(11px)rotate(45deg);
+transition: 0.3s ease-in-out;
+  }
+  .hamburgerMenu.active .bar:nth-child(3){
+  transform:translateY(-11px)rotate(-45deg);
+transition: 0.3s ease-in-out;
+  }
+
+
+  .navbar{
+  margin: auto;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: gray;
+  font-size: 20px;
+  align-items: center;
+  /* position: relative;
+  left: 100px; */
+  justify-self: flex-end;
+}
+.navbar.active{
+  display: block;
+  margin-top: 20px;
+  justify-self: center;
+  animation: appear 0.3s ease-in-out;
+}
+
+@keyframes appear {
+  from{
+    opacity: 0;
+    /* transform: translate(50px); */
+  }
+  to{
+    opacity: 1;
+    /* transform: translateX(0px); */
+  }
+}
+.navbar ul{
+
+  margin-top: 40px;
+  width: 100%;
+  position: absolute;
+  right: -7px;
+  justify-self: center;
+  background-color: rgb(11, 4, 40);
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* width: 500px; */
+  /* backdrop-filter: blur(60px); */
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px orangered;
+}
+.navbar ul li{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 15px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: orangered;
+  transition: 0.4s;
+  
+}
+.navbar ul li a:hover{
+  color:orangered
+}
+.hamburgerMenu{
+  margin: auto;
+  display: inline-flex;
+  flex-direction: column;
+  float: right;
+  margin-right: 50px;
+  /* display: none; */
+  background-color: #050526;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px orangered;
+}
+.hamburgerMenu .bar{
+  background-color: orangered;
+  width: 31px;
+  height: 3px;
+  margin: 4px;
+}
+
 }
 
 
