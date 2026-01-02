@@ -523,75 +523,6 @@ html{
 body::-webkit-scrollbar{
     width: 0;
 }
-
-
-
-
-
-
-
-
-  .hamburger{
-  display: block;
-  }
-  .hamburgerMenu{
-  transition: 2s ease-in-out;
-  }
-  .hamburgerMenu.active .bar:nth-child(2){
-  opacity: 0;
-transition: 0.3s ease-in-out;
-  }
-  .hamburgerMenu.active .bar:nth-child(1){
-  transform:translateY(11px)rotate(45deg);
-transition: 0.3s ease-in-out;
-  }
-  .hamburgerMenu.active .bar:nth-child(3){
-  transform:translateY(-11px)rotate(-45deg);
-transition: 0.3s ease-in-out;
-  }
-  .nav-link{
-  position: fixed;
-  /* left:-100%; */
-  top:-180px;
-  left:-0.1%;
-  gap:0px;
-  flex-direction: column;
-  background-color:#ffa600;
-  width: 89%;
-  text-align: center;
-  transition: 0.3s;
-  border-radius: 20px;
-  justify-content: center;
-  }
- 
-  .nav-link.active{
-  /* left:0%; */
-  top: 65px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header{
   z-index: 100;
   position: fixed;
@@ -614,10 +545,63 @@ transition: 0.3s ease-in-out;
   margin: auto;
   justify-content: flex-start;
 }
+
+
+
+
+
+
+
+
+
+  .hamburgerMenu{
+  transition: 2s ease-in-out;
+  }
+  .hamburgerMenu.active .bar:nth-child(2){
+  opacity: 0;
+transition: 0.3s ease-in-out;
+  }
+  .hamburgerMenu.active .bar:nth-child(1){
+  transform:translateY(11px)rotate(45deg);
+transition: 0.3s ease-in-out;
+  }
+  .hamburgerMenu.active .bar:nth-child(3){
+  transform:translateY(-11px)rotate(-45deg);
+transition: 0.3s ease-in-out;
+  }
+  .nav-link{
+  /* left:-100%; */
+  top:-180px;
+  left:-0.1%;
+  gap:0px;
+  flex-direction: column;
+  /* background-color:#ffa600; */
+  width: 89%;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 20px;
+  justify-content: center;
+  }
+ 
+  .nav-link.active{
+  /* left:0%; */
+  /* top: 65px; */
+  }
+
+
+
+
+
+
+
+
+
+
+
 .navbar{
   margin: auto;
-  display: none;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   color: gray;
   font-size: 20px;
@@ -631,9 +615,10 @@ transition: 0.3s ease-in-out;
 }
 .navbar ul{
   margin-top: 40px;
-  width: 80%;
+  width: 100%;
   position: absolute;
   right: 20px;
+  justify-self: center;
   background-color: rgb(11, 4, 40);
   text-decoration: none;
   list-style: none;
@@ -641,7 +626,7 @@ transition: 0.3s ease-in-out;
   flex-direction: row;
   justify-content: space-evenly;
   /* width: 500px; */
-  backdrop-filter: blur(60px);
+  /* backdrop-filter: blur(60px); */
   border-radius: 10px;
   box-shadow: 0px 0px 4px orangered;
 }
