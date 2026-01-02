@@ -1,4 +1,5 @@
-//reviews navigation button js
+//reviews navigation button js reviews navigation button js  reviews navigation button js
+
 const track = document.querySelector(".reviewcarousel-track");
 const items = document.querySelectorAll(".carousel-item");
 const prevBtn = document.getElementById("prev");
@@ -20,7 +21,8 @@ prevBtn.addEventListener("click", () => {
   index = (index - 1 + items.length) % items.length;
   updateCarousel();
 });
-//reviews navigation button js
+
+//reviews navigation button js  reviews navigation button js  reviews navigation button js
 
 
 
@@ -29,8 +31,10 @@ prevBtn.addEventListener("click", () => {
 
 
 
-//navbar hamburger menu navbar hamburger menu navbar hamburger menu
-    const hamburger = document.querySelector(".hamburger");
+//navbar hamburger menu navbar hamburger menu navbar hamburger menu navbar hamburger menu
+
+
+    const hamburger = document.querySelector(".hamburgerMenu");
     const navMenu = document.querySelector(".nav-menu");
 
     hamburger.addEventListener("click",()=>{
@@ -43,6 +47,8 @@ prevBtn.addEventListener("click", () => {
       navMenu.classList.remove("active");
     }))
 
+
+//navbar hamburger menu navbar hamburger menu navbar hamburger menu navbar hamburger menu
 
 
 
