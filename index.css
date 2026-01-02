@@ -507,7 +507,18 @@ body::-webkit-scrollbar{
 
 
 
-
+@media( max-width:923px) {
+  .logo{
+    margin-left: 60px;
+  }
+   .navbar{
+     display: none;
+   }
+   .hamburgerMenu{
+     display: flex;
+     margin-right: 80px;
+   }
+}
 
 
 @media( max-width:760px) {
@@ -544,6 +555,7 @@ body::-webkit-scrollbar{
   font-weight: bold;
   margin: auto;
   justify-content: flex-start;
+  margin-left: 30px;
 }
 
 
@@ -583,10 +595,7 @@ transition: 0.3s ease-in-out;
   justify-content: center;
   }
  
-  .nav-link.active{
-  /* left:0%; */
-  /* top: 65px; */
-  }
+ 
 
 
 
