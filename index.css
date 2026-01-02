@@ -612,12 +612,15 @@ transition: 0.3s ease-in-out;
 }
 .navbar.active{
   display: block;
+  margin-top: 20px;
+  justify-self: center;
 }
 .navbar ul{
+  
   margin-top: 40px;
   width: 100%;
   position: absolute;
-  right: 20px;
+  right: -5px;
   justify-self: center;
   background-color: rgb(11, 4, 40);
   text-decoration: none;
