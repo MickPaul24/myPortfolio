@@ -539,15 +539,15 @@ body::-webkit-scrollbar{
   }
   .hamburgerMenu.active .bar:nth-child(2){
   opacity: 0;
-transition: 0.8s ease-in-out;
+transition: 0.3s ease-in-out;
   }
   .hamburgerMenu.active .bar:nth-child(1){
   transform:translateY(11px)rotate(45deg);
-transition: 0.8s ease-in-out;
+transition: 0.3s ease-in-out;
   }
   .hamburgerMenu.active .bar:nth-child(3){
   transform:translateY(-11px)rotate(-45deg);
-transition: 0.8s ease-in-out;
+transition: 0.3s ease-in-out;
   }
   .nav-menu{
   position: fixed;
