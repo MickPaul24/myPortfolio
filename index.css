@@ -616,11 +616,11 @@ transition: 0.3s ease-in-out;
   justify-self: center;
 }
 .navbar ul{
-  
+
   margin-top: 40px;
   width: 100%;
   position: absolute;
-  right: -5px;
+  right: -7px;
   justify-self: center;
   background-color: rgb(11, 4, 40);
   text-decoration: none;
