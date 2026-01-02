@@ -36,15 +36,18 @@ prevBtn.addEventListener("click", () => {
 
     const hamburger = document.querySelector(".hamburgerMenu");
     const navMenu = document.querySelector(".navbar");
+    const navLink = document.querySelector(".nav-link");
 
     hamburger.addEventListener("click",()=>{
       hamburger.classList.toggle("active");
       navMenu.classList.toggle("active");
+      navLink.classList.toggle("active");
     })
 
     document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click",() =>{
       hamburger.classList.remove("active");
       navMenu.classList.remove("active");
+      navLink.classList.remove("active");
     }))
 
 

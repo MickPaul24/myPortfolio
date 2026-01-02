@@ -600,7 +600,7 @@ transition: 0.3s ease-in-out;
 
 .navbar{
   margin: auto;
-  display: flex;
+  display: none;
   flex-direction: row;
   flex-wrap: wrap;
   color: gray;
