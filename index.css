@@ -432,6 +432,7 @@ body::-webkit-scrollbar{
 }
 .formInputs:focus{
   outline: none;
+  border: orangered  1px solid;
   box-shadow: 0px 0px 10px orangered;
 }
 .sendBtn{
