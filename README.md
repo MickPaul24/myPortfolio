@@ -33,30 +33,6 @@ GitHub-style badge buttons (illustrative only — don’t lie about your stack).
 
 ---
 
-## 📂 Project Structure
-
----
-
-├── public/
-│   └── assets/
-│       ├── images/
-│       └── icons/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   ├── data/
-│   └── utils/
-├── README.md
-├── package.json
-└── vite.config.js
-
-If your structure is chaotic, your thinking probably is too.
-
----
-
----
-
 ## 🚀 Getting Started
 
 Clone the repository:
