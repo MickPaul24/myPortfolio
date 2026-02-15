@@ -70,6 +70,7 @@ body::-webkit-scrollbar{
   padding: 4px;
   border-radius: 5px;
   box-shadow: 0px 0px 4px orangered;
+  transition: 0.3s ease-in-out;
 }
 .hamburgerMenu .bar{
   background-color: orangered;
@@ -523,6 +524,7 @@ body::-webkit-scrollbar{
    .hamburgerMenu{
      display: flex;
      margin-right: 80px;
+     transition: 0.3s ease-in-out;
    }
 
 
@@ -619,6 +621,7 @@ transition: 0.3s ease-in-out;
   padding: 2px;
   border-radius: 5px;
   box-shadow: 0px 0px 4px orangered;
+  transition: 0.3s ease-in-out;
 }
 .hamburgerMenu .bar{
   background-color: orangered;
@@ -790,12 +793,14 @@ transition: 0.3s ease-in-out;
   padding: 2px;
   border-radius: 5px;
   box-shadow: 0px 0px 4px orangered;
+  transition: 0.3s ease-in-out;
 }
 .hamburgerMenu .bar{
   background-color: orangered;
   width: 31px;
   height: 3px;
   margin: 4px;
+  transition: 0.3s ease-in-out;
 }
 
 .hero{
